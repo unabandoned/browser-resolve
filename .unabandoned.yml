@@ -1,0 +1,25 @@
+schema: 1
+
+package: "@unabandoned/browser-resolve"
+
+upstream:
+  repo: browserify/browser-resolve
+  reason: "unmaintained upstream in the browserify ecosystem — left idle while its dependency tree ages"
+
+summary: >-
+  Node-style module resolution that honours the "browser" field in package.json
+  so browser builds pick browser-specific replacements.
+
+why-forked: >-
+  A core browserify resolution helper that went unmaintained while its
+  dependency tree aged; forked so Renovate keeps that tree current for consumers.
+
+status: active
+
+used-by:
+  - consumer: "@unabandoned/browserify"
+    purpose: "Resolves module paths with browser-field overrides during bundling."
+  - consumer: "@unabandoned/module-deps"
+    purpose: "Resolves each require() target while walking the dependency graph."
+
+tags: [browserify, resolve, browser-field]
