@@ -1,3 +1,4 @@
+var test = require('./mocha-adapter');
 var assert = require('assert');
 var path = require('path');
 var resolve = require('../');

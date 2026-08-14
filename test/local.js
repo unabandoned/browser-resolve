@@ -1,3 +1,4 @@
+var test = require('./mocha-adapter');
 var assert = require('assert');
 var resolve = require('../');
 
@@ -12,4 +13,3 @@ test('local', function(done) {
         done();
     });
 });
-
