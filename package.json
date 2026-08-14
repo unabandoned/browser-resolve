@@ -1,5 +1,5 @@
 {
-  "name": "browser-resolve",
+  "name": "@unabandoned/browser-resolve",
   "version": "2.0.0",
   "description": "resolve which handles browser field support in package.json",
   "main": "index.js",
@@ -8,11 +8,19 @@
     "empty.js"
   ],
   "scripts": {
-    "test": "node scripts/setup-symlinks.js && mocha --reporter list test/*.js"
+    "prepare": "git config core.hooksPath .githooks || true",
+    "test": "node scripts/setup-symlinks.js && node --test test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/browserify/browser-resolve.git"
+    "url": "git+https://github.com/unabandoned/browser-resolve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unabandoned/browser-resolve/issues"
+  },
+  "homepage": "https://github.com/unabandoned/browser-resolve#readme",
+  "engines": {
+    "node": ">=22.12"
   },
   "keywords": [
     "resolve",
@@ -21,9 +29,10 @@
   "author": "Roman Shtylman <shtylman@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "resolve": "^1.17.0"
+    "resolve": "1.22.12"
   },
   "devDependencies": {
-    "mocha": "^2.5.3"
+    "@commitlint/cli": "21.2.1",
+    "@commitlint/config-conventional": "21.2.0"
   }
 }

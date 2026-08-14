@@ -1,3 +1,4 @@
+var test = require('./mocha-adapter');
 var assert = require('assert');
 var resolve = require('../');
 
@@ -65,4 +66,3 @@ test('module implicit extension to explicit extension', function(done) {
         done();
     });
 });
-

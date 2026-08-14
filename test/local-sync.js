@@ -1,3 +1,4 @@
+var test = require('./mocha-adapter');
 var assert = require('assert');
 var resolve = require('../');
 
@@ -9,4 +10,3 @@ test('local', function() {
     var path = resolve.sync('./foo', { filename: fixtures_dir + '/phony.js' });
     assert.equal(path, require.resolve('./fixtures/foo'));
 });
-

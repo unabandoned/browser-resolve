@@ -1,3 +1,4 @@
+var test = require('./mocha-adapter');
 // test loading core modules
 var assert = require('assert');
 var resolve = require('../');
@@ -21,4 +22,3 @@ test('core shim not found', function(done) {
         done();
     });
 });
-

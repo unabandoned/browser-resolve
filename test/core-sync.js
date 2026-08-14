@@ -1,3 +1,4 @@
+var test = require('./mocha-adapter');
 // test loading core modules
 var assert = require('assert');
 var resolve = require('../');
