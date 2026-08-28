@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.4](https://github.com/unabandoned/browser-resolve/compare/browser-resolve-v2.0.3...browser-resolve-v2.0.4) (2026-08-28)
+
+
+### Dependencies & maintenance
+
+* **deps:** update unabandoned/.github action to v1.0.3 ([#13](https://github.com/unabandoned/browser-resolve/issues/13)) ([ecee254](https://github.com/unabandoned/browser-resolve/commit/ecee2540e252aeae97f71cbef0407f8cfb709ddc))
+
 ## [2.0.3](https://github.com/unabandoned/browser-resolve/compare/browser-resolve-v2.0.2...browser-resolve-v2.0.3) (2026-08-23)
 
 
