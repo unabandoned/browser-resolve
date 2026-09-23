@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.6](https://github.com/unabandoned/browser-resolve/compare/browser-resolve-v2.0.5...browser-resolve-v2.0.6) (2026-09-23)
+
+
+### Dependencies & maintenance
+
+* **deps:** update commitlint monorepo to v21.2.3 ([#19](https://github.com/unabandoned/browser-resolve/issues/19)) ([9315475](https://github.com/unabandoned/browser-resolve/commit/93154751514574cb3e3e7d19eafeb135b33808d6))
+
 ## [2.0.5](https://github.com/unabandoned/browser-resolve/compare/browser-resolve-v2.0.4...browser-resolve-v2.0.5) (2026-09-22)
 
 
